@@ -21,10 +21,13 @@ namespace Teht2
             newCD.AddBiisit(song1);
             Biisit song2 = new Biisit("Face To Face", "4:00");
             newCD.AddBiisit(song2);
-            Biisit song3 = new Biisit("Too Long", "4:20");
+            Biisit song3 = new Biisit("Too Long", "10:00");
             newCD.AddBiisit(song3);
+            Biisit song4 = new Biisit("Harder, Better, Faster, Stronger", "3:45");
+            newCD.AddBiisit(song4);
 
             newCD.PrintData();
+            Console.ReadLine();
         }
 
     }

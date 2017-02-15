@@ -37,7 +37,7 @@ namespace Teht2
         {
             Console.WriteLine("CD data: ");
             
-            Console.WriteLine("- Artist: " + Artist + "\n- Album name: " + Name + "\n- price: " + Price + " euros " + "\nSongs: \n");
+            Console.WriteLine("- Artist: " + Artist + "\n- Album name: " + Name + "\n- price: " + Price + " euros \n" + "\nSongs: ");
             foreach (CD songs in songs)
             {
                 Console.WriteLine(songs.ToString());
