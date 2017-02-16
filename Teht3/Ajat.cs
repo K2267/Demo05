@@ -13,7 +13,7 @@ namespace Teht3
 
         //constructor
         public Ajat(string lap, string laptime)
-        //: base(Artist, Price)
+        //: base()
         {
             Lap = lap;
             Laptime = laptime;
