@@ -27,7 +27,7 @@ namespace Teht3
         /// <summary>
         /// Add song to collection
         /// </summary>
-        /// <param name="Biisit">Biisit to add</param>
+        /// <param name="Laps">Laps to add</param>
         public void AddLaps(Ajat lap)
         {
             laps.Add(lap);
