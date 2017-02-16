@@ -46,7 +46,7 @@ namespace Teht3
 
         public override string ToString()
         {
-            return " - "; //Tulostetaan "-" ennen kappaletta --korvaa List<Biisit> aiheuttaman nimen
+            return " - "; 
         }
     }
 }
